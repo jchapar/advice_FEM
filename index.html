@@ -10,5 +10,35 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Advice Generator App</title>
   </head>
-  <body class="bg-darkBlue font-sans flex items-center justify-center"></body>
+  <body class="bg-darkBlue font-sans flex items-center justify-center">
+    <!-- Container -->
+    <div class="container mx-auto overflow-x-hidden flex items-center justify-center">
+      <!-- Main -->
+      <main class="flex items-center justify-center h-screen w-screen p-6">
+        <!-- Card -->
+        <div id="card" class="relative bg-grayishBlue p-8 flex flex-col items-center justify-center rounded-lg space-y-10 h-[400px] max-w-[500px]">
+          <!-- Advice ID -->
+          <p class="text-neonGreen uppercase font-bold tracking-widest">Advice #<span id="id">117</span></p>
+          <!-- Quote -->
+          <div class="quote-container">
+            <blockquote class="text-lightCyan text-center text-3xl font-bold">"It is easy to sit up and take notice, whats difficult is getting up and taking action."</blockquote>
+          </div>
+          <!-- Bottom Border -->
+          <div class="flex items-center justify-center mb-10 space-x-0">
+            <span class="w-full h-[1px] bg-lightCyan"></span>
+            <img src="images/pattern-divider-mobile.svg" alt="" />
+            <span class="w-full h-[1px] bg-lightCyan"></span>
+          </div>
+          <!-- Button -->
+          <div class="absolute -bottom-10 bg-neonGreen flex items-center justify-center w-20 h-20 rounded-full">
+            <img src="images/icon-dice.svg" alt="" id="generate-btn" class="cursor-pointer w-8 h-8" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/advice.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
