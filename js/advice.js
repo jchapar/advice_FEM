@@ -1,7 +1,6 @@
 class HTTP {
-  // Make HTTP Request
-  async get(url) {
-    const response = await fetch(url);
+  async getAdvice() {
+    const response = await fetch('https://api.adviceslip.com/advice');
     const responseData = await response.json();
     return responseData;
   }
