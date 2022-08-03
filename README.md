@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Github Code](https://github.com/jchapar/advice_FEM)
-- Live Site URL: [Visit Site](https://jchapar.github.io/github_FEM/)
+- Live Site URL: [Visit Site](https://jchapar.github.io/advice_FEM/)
 
 ## My process
 
