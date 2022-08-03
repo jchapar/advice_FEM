@@ -4,7 +4,6 @@ const http = new HTTP();
 const ui = new UI();
 
 const generateBtn = document.getElementById('generate-btn');
-const quoteContainer = document.querySelector('.quote-container');
 
 generateBtn.addEventListener('click', () => {
   http.getAdvice().then((data) => {
